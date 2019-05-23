@@ -1,5 +1,5 @@
 body {
-    background-color:#3d4142;
+    background-color: gray;
     margin: 0;
 
 }
@@ -7,41 +7,54 @@ a:link {color: 595959;
 text-decoration: none;}
 @font-face {font-family: font1;
     src: url(font1.otf);}
+@font-face{ font-family: font2;
+    src: url(font2.otf);
+}    
+.tagline
+{
+color: whitesmoke;
+font-family: font2;
+text-align: center;
+padding-bottom: 20px;
+font-size: 20;
+
+
+}
 h1 {color: white; 
+    text-align: center;
+    font-size: 50;
+    letter-spacing: 3px;
     padding-top:  20px;
+    padding-bottom: 0%
     padding-left: 20px;
 font-family: font1;}
 .navbar
-{background-color: CF0C0C;
-margin top: 5%;
+{background-color: #404040;
+line-height: 0.4;
 margin-bottom: 0;
-height: 70px;
-
-position: sticky;}
+padding-top: 2;
+width: 100%;
+position: fixed;}
 .nav1{height: 50px;
 background-color: F2F2F2;
-position: fixed;
+position: relative;
+top: 140;
 width: 100%;
 }
-.img
-{
-    display: grid;
-    margin-left: auto;
-    margin-right: auto;
-   
 
-}
 li {display: inline-block;
-    padding: 14px 25px;
+    padding: 14px 40px;
     overflow: hidden;
     vertical-align: middle;
     font-family: futura;
+    font-size: 25;
+    letter-spacing: 2px;
 
-font-family: Futura;
+font-family: font2;
 font-weight: 100;
 }
 ul {list-style-type: none;
-
+text-align: center;
 margin: 0%;
   vertical-align: middle;
 }
@@ -51,14 +64,5 @@ background-color: 252525;
 position: fixed;
 bottom: 0px;
 width: 100%;
-
-}
-.content1 {background-color: red}
-.content2 {background-color: blue}
-.content3 {background-color: pink}
-.grid{
-    display: grid;
-    grid-template-rows: 40% 20%;
-    grid-template-columns: 60% 40%;
 
 }
