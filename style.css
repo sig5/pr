@@ -66,3 +66,10 @@ bottom: 0px;
 width: 100%;
 
 }
+.sshow
+{
+max-width: 1000px;
+position: relative;
+margin: auto;
+
+}
