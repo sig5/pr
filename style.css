@@ -18,8 +18,16 @@ text-align: center;
 padding-bottom: 20px;
 font-size: 20;
 
+}
+.sshow
+{
+max-width: 100%;
+
+margin: auto;
+z-index: -1;
 
 }
+
 h1 {color: white; 
     text-align: center;
     font-size: 50;
@@ -36,8 +44,8 @@ padding-top: 2;
 width: 100%;
 position: fixed;}
 .nav1{height: 50px;
-background-color: F2F2F2;
-position: relative;
+background-color: ffffff;
+position: sticky;
 top: 140;
 width: 100%;
 }
@@ -66,10 +74,13 @@ bottom: 0px;
 width: 100%;
 
 }
-.sshow
-{
-max-width: 1000px;
-position: relative;
-margin: auto;
+.textc
+{width: 100%;
+    background-color: whitesmoke;
+    position: -webkit-sticky;
+    position: sticky;
 
+
+   top: 50%;
+    z-index: 1;
 }
