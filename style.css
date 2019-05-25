@@ -22,7 +22,7 @@ font-size: 20;
 .sshow
 {
 max-width: 100%;
-
+position: relative;
 margin: auto;
 z-index: -1;
 
@@ -42,12 +42,14 @@ line-height: 0.4;
 margin-bottom: 0;
 padding-top: 2;
 width: 100%;
-position: fixed;}
+position: fixed;
+box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.25);}
 .nav1{height: 50px;
 background-color: ffffff;
 position: sticky;
 top: 140;
 width: 100%;
+box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.25);
 }
 
 li {display: inline-block;
@@ -79,8 +81,21 @@ width: 100%;
     background-color: whitesmoke;
     position: -webkit-sticky;
     position: sticky;
-
-
+font-family:  Helvetica, sans-serif;
+font-size: 20px;
+height: 50%;
    top: 50%;
-    z-index: 1;
+    z-index: 2;
+    box-shadow: 0 -4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.text1
+{ 
+    position: relative;
+margin-left: 10%;
+margin-right: 10%;
+width: 50%;
+top: 40%;
+color: #404040;
+text-align: center;
+vertical-align: center;
 }
