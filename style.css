@@ -27,7 +27,25 @@ margin: auto;
 z-index: -1;
 
 }
+.s{position: relative;
+}
+ /* .btn
+{
+position: absolute;
+top: 50%;
+left: 12%;
+background-color: rgba(0, 0, 0, 0);
+color: white;
+padding: 6px 24px;
+border-color: #ffffff;
+border-width: 1px;
+border-radius: 3px;
+font-family: Helvetica, sans-serif;
+font-size: 20px;
+cursor: pointer;
+z-index: 1;
 
+} */
 h1 {color: white; 
     text-align: center;
     font-size: 50;
